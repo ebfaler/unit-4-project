@@ -1,0 +1,75 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: transform 2s background-color;
+  }
+  
+
+  .default {
+    background-color: $color-secondary;
+    &:hover {
+      background-color: $color-secondary-light;
+    }
+  }
+  
+  .error {
+    background-color: $color-error;
+    &:hover {
+      background-color:$color-error-light;
+    }
+  }
+  
+  .info {
+    background-color: $color-info;
+    &:hover {
+      background-color: $color-info-light;
+    }
+  }
+  
+  .success {
+    background-color: $color-success;
+    &:hover {
+      background-color: $color-success-light;
+    }
+  }
+  
+  .warning {
+    background-color: $color-warning;
+    &:hover {
+      background-color: $color-warning-light;
+    }
+  }
+  
+  /* ============================================= */
+  /*              Forms                            */
+  /* ============================================= */
+  .form {
+    flex-basis: 100%;
+  }
+  
+  .input {
+    display: block;
+    width: 94%;
+    margin: 10px auto 0;
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid $color-primary;
+  }
+  
+  .hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  
